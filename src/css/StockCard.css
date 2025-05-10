@@ -1,0 +1,20 @@
+/* src/css/StockCard.css */
+.stock-card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+  }
+  
+  .stock-card:hover {
+    background-color: #2c2c2c;
+    transform: scale(1.01);
+  }
+  
+  .favourite-btn span {
+    font-size: 1.5rem;
+  }
+  

@@ -1,0 +1,32 @@
+/* src/css/Saved.css */
+.saved-page {
+    padding: 2rem;
+  }
+  
+  .saved-header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 1rem;
+    background-color: #1e1e1e;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #00bcd4;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .saved-empty {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  
+  .saved-empty h2 {
+    font-size: 2rem;
+    color: #00bcd4;
+  }
+  
+  .saved-empty p {
+    color: #aaa;
+    margin-top: 1rem;
+  }
+  
